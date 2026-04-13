@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.2.2",
-    "tailwindcss": "^4.2.2"
+    "tailwindcss": "^4.2.2",
+    "typed.js": "^3.0.0"
   }
 }
