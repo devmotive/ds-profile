@@ -1,8 +1,116 @@
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="dist/global.css" rel="stylesheet" />
+
     <title>Document</title>
   </head>
-  <body></body>
+  <body class="bg-[#161513]">
+    <nav class="sticky top-0 bg-[#222222]">
+      <div
+        class="mb-20 flex flex-col justify-center gap-4 p-4 sm:flex-row sm:gap-8"
+      >
+        <a
+          href="#"
+          class="text-center font-semibold text-white transition hover:text-gray-300"
+          >Home</a
+        >
+        <a
+          href="#projects"
+          class="text-center font-semibold text-white transition hover:text-gray-300"
+          >Projects</a
+        >
+        <a
+          href="#experiences"
+          class="text-center font-semibold text-white transition hover:text-gray-300"
+          >Experiences</a
+        >
+        <a
+          href="#contact"
+          class="text-center font-semibold text-white transition hover:text-gray-300"
+          >Contact</a
+        >
+      </div>
+    </nav>
+
+    <main>
+      <div class="mb-10 flex justify-center">
+        <img src="assets/avatar.png" class="w-64 object-cover" />
+      </div>
+
+      <h1
+        class="mb-10 bg-linear-270 from-[#FF8660] from-0% to-[#9A33FF] to-100% bg-clip-text text-center text-4xl font-extrabold text-transparent"
+      >
+        Ahmad
+      </h1>
+
+      <p class="mx-auto mb-14 max-w-2xl text-center font-light text-[#C5C5C5]">
+        I'm a full-stack developer passionate about building web applications.
+        With expertise in both frontend and backend technologies, I create
+        scalable and user-friendly solutions. I'm focused on continuous learning
+        and staying updated with the latest technologies.
+      </p>
+
+      <h2
+        id="projects"
+        class="mb-7 bg-linear-to-b from-[#FF8660] from-0% to-[#D5491D] to-100% bg-clip-text text-center text-2xl font-extrabold text-transparent uppercase"
+      >
+        Projects
+      </h2>
+
+      <section
+        class="mx-auto mb-24 grid max-w-2xl grid-cols-1 gap-7 sm:grid-cols-2"
+      >
+        <div class="h-60 overflow-hidden rounded-2xl">
+          <img
+            src="https://assets.telkomsel.com/public/2025-08/kuota-telkomsel.png?VersionId=l1HyeUqZDihcFQtvC72t6cugJOY0odyw"
+            class="h-40 w-full object-cover"
+          />
+          <a
+            href="https://www.telkomsel.com"
+            class="flex h-20 flex-row items-center justify-between bg-[#2A2A2A] px-6 transition hover:bg-neutral-700"
+          >
+            <div class="flex flex-col">
+              <p class="text-base font-extrabold text-[#C5C5C5] uppercase">
+                click here to visit
+              </p>
+              <p class="text-2xl font-extrabold text-white uppercase">
+                telkomsel
+              </p>
+            </div>
+            <p class="text-white">&#8599;</p>
+          </a>
+        </div>
+        <div class="h-60 overflow-hidden rounded-2xl">
+          <img
+            src="https://images.samsung.com/is/image/samsung/assets/id/about-us/brand/logo/mo/360_197_1.png?$720_N_PNG$"
+            class="h-40 w-full object-cover"
+          />
+          <a
+            href="https://www.samsung.com"
+            class="flex h-20 flex-row items-center justify-between bg-[#2A2A2A] px-6 transition hover:bg-neutral-700"
+          >
+            <div class="flex flex-col">
+              <p class="text-base font-extrabold text-[#C5C5C5] uppercase">
+                click here to visit
+              </p>
+              <p class="text-2xl font-extrabold text-white uppercase">
+                samsung
+              </p>
+            </div>
+            <p class="text-white">&#8599;</p>
+          </a>
+        </div>
+      </section>
+
+      <h2
+        id="experiences"
+        class="mb-7 bg-linear-to-b from-sky-400 from-0% to-blue-700 to-100% bg-clip-text text-center text-2xl font-extrabold text-transparent uppercase"
+      >
+        Experiences
+      </h2>
+    </main>
+  </body>
 </html>
